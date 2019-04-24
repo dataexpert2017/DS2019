@@ -1,0 +1,99 @@
+---
+title: "About This Website"
+---
+
+<br>
+
+## 목적
+
+
+
+- 데이터분석반이 주관하는 2019년 데이터분석연구회 강의자료 제공을 위한 사이트 
+
+- 조사연구플랫폼을 효과적으로 활용하는데 필요한 기본적인 R 프로그래밍 지식 제공 
+
+-  [RStudio사](https://www.rstudio.com)를 중심으로 발전하고 있는 다양한 최신 R 기술과  [Tidyverse](https://www.tidyverse.org)와 tibble List Column 등 새로운 프로그래밍 방식 등 R 프로그래밍을 활용한 대용량 데이터의 Best Practice 소개 
+
+
+<br>
+
+## 과정 구성(안)
+
+- Course Introduction 
+
+- Introduction to R
+
+- Tidyverse, Importing Data in R
+
+- Cleaning Data & Writing Function in R
+
+- Data Manipulaion and Joining in R with dplyr
+
+- Data Visualization with ggplot2
+
+- Working with Dates and Times in R
+
+- Exploratory Data Analysis, Correlation and Regression
+
+- Cluster Analysis / Supervised & Unsupervised Learning
+
+
+<br>
+
+## 핵심 내용
+
+
+
+```{r echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("image/listcolumn.png")
+```
+
+
+<br>
+
+
+## 실습자료 다운로드 
+
+
+
+- https://www.dropbox.com/sh/r9b1birgkmk2buq/AAANOUsBvKBlkE3OhKejewKKa?dl=0
+
+<br>
+  
+## Reference
+
+
+
+  * [R for Data Science - Grolemund, Wickham - O'Reilly, 2016](http://r4ds.had.co.nz/)
+
+  * [Advanced R - Wickham - Chapman and Hall/CRC, 2014](http://adv-r.had.co.nz/)
+
+
+<br>
+
+## Software
+
+  * R / RStudio
+
+
+<br>
+
+## Contact Information
+
+
+
+  * `dookyung.kim74@gmail.com`
+
+
+<br>
+
+## Developing Tool of this site
+
+
+
+  * This site is developed with RStudio IDE using Rmarkdown. 
+
+
+
+    
+    
