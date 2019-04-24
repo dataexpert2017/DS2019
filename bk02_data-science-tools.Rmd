@@ -35,7 +35,7 @@ knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
 ## Rstudio IDE
 
 ```{r echo = FALSE, out.width = "75%"}
-knitr::include_graphics("diagrams/rstudio-editor.png")
+knitr::include_graphics("image/rstudio-editor.png")
 ```
 
 <br>
