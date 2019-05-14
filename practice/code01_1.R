@@ -101,13 +101,13 @@ c(TRUE, FALSE, TRUE)
 a <-  "안녕하세요"
 
 # 3. 수치값(numeric) 
-a <- 3
-a <- 3L
+a <- 5
+b <- 3L
+
 3+2i
 
-
 ### vectordml 타입 확인
-typeof(3)
+typeof(b)
 typeof(c(3,4,5))
 typeof(3L)
 typeof(3+2i)
@@ -128,7 +128,8 @@ seq(1,10, length.out=7)  #개수
 
 rep(1:3, times=3)
 rep(1:3, each=3)
-rep(c(3,2,1), 3)
+rep(c(3,5,1), 3)
+
 
 ### 벡터함수
 
@@ -149,7 +150,7 @@ sum(x)
 mean(x)
 var(x)
 sd(x)
-x[5] <-  NA
+
 
 mean(x)
 
@@ -163,11 +164,14 @@ x
 
 x <- c(34,25,19,25)
 x 
+
+x[2]
 names(x)
 
 names(x) <- c("a", "b", "c", "d")
 x
 names(x)
+x[1]
 
 x['c']
 names(x)[3] <- "cc" 
@@ -187,17 +191,21 @@ typeof(x)
 # 1. 자연수로 구성된 숫자형 벡터
 x[3]
 x[c(1,3,5)]
+
 x[c(1,3,3,5)]
 x[c(5,3,1)]
 
 # 2. 음의 정수  : 제외
 x[-3]
 x[c(-1,-2,-3)]
-
+x[-(1:3)]
 
 # 3. 논리형 벡터 : TRUE값
 
-x[c(TRUE, FALSE, TRUE, FALSE)]
+x[c(TRUE, FALSE)]
+
+x>14
+
 x[x>14]
 
 x>14

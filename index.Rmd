@@ -54,9 +54,9 @@ knitr::include_graphics("image/listcolumn.png")
 
 ## 실습자료 다운로드 
 
+- Rstudio Cloud
 
-
-- https://www.dropbox.com/sh/r9b1birgkmk2buq/AAANOUsBvKBlkE3OhKejewKKa?dl=0
+  **[https://rstudio.cloud/spaces/17289/join?access_code=b2omqrtLLwEJeLkR4%2Bz4sdpjBM%2FH2Wvf218q0x2I](https://rstudio.cloud/spaces/17289/join?access_code=b2omqrtLLwEJeLkR4%2Bz4sdpjBM%2FH2Wvf218q0x2I)
 
 <br>
   
