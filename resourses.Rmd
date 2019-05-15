@@ -1,0 +1,25 @@
+---
+title: "Resourses"
+---
+
+<br>
+
+## Key Commands in R
+
+- [R vocabulary](./bk03_r-vocabulary.html) 
+
+<br>
+
+## RStudio Cheat Sheet
+
+- [Rstudio IDE](./practice/rstudio-ide.pdf)
+
+- [Base R](./practice/base-r.pdf)
+
+- [readr & tidyr](./practice/data-import.pdf)
+
+- [dplyr](./practice/data-transformation.pdf)
+
+
+
+

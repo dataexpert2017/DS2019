@@ -9,7 +9,7 @@ navbar:
     - text: "Lessons"
       href: course.html
     - text: "Resourses"
-      href: cheatSheet.html
+      href: resourses.html
   right:
     - icon: fa-github fa-lg
       href: https://dookyung.github.io/
