@@ -11,7 +11,7 @@
 
 
 
-<title>Data Science Tools</title>
+<title>Resourses</title>
 
 <script src="site_libs/jquery/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,14 +19,9 @@
 <script src="site_libs/bootstrap/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui/jquery-ui.min.js"></script>
-<link href="site_libs/tocify/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify/jquery.tocify.js"></script>
 <script src="site_libs/navigation/tabsets.js"></script>
 <link href="site_libs/highlightjs/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs/highlight.js"></script>
-<link href="site_libs/pagedtable/css/pagedtable.css" rel="stylesheet" />
-<script src="site_libs/pagedtable/js/pagedtable.js"></script>
 <link href="site_libs/font-awesome/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
 
@@ -272,107 +267,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
@@ -413,130 +307,31 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Data Science Tools</h1>
+<h1 class="title toc-ignore">Resourses</h1>
 
 </div>
 
 
 <p><br></p>
-<div id="programs-to-download" class="section level2">
-<h2>Programs to download</h2>
+<div id="key-commands-in-r" class="section level2">
+<h2>Key Commands in R</h2>
 <ul>
-<li><p><a href="https://cran.r-project.org/">R</a></p></li>
-<li><p><a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a></p></li>
-<li><p><a href="https://www.rstudio.com/products/rstudio/download/preview/">RStudio Preview</a></p></li>
-<li><p><a href="https://cran.r-project.org/bin/windows/Rtools/">R Tools</a></p></li>
-<li><p><a href="https://github.com/naver/d2codingfont/releases">D2Coding</a></p></li>
+<li><a href="./bk03_r-vocabulary.html">R vocabulary</a></li>
 </ul>
 <p><br></p>
 </div>
-<div id="rstudio-ide" class="section level2">
-<h2>Rstudio IDE</h2>
-<p><img src="image/rstudio-editor.png" width="75%" /></p>
-<p><br></p>
-</div>
-<div id="rstudio-ide-1" class="section level2">
-<h2>RStudio IDE</h2>
-<p><img src="image/bk02_data-science-tools/rstudio-editor2.png" width="75%" /></p>
-<p><br></p>
-</div>
-<div id="rstudio-ide-" class="section level2">
-<h2>RStudio IDE 주요설정</h2>
+<div id="rstudio-cheat-sheet" class="section level2">
+<h2>RStudio Cheat Sheet</h2>
 <ul>
-<li><p>[Tools] -&gt; [Global Options…]</p></li>
-<li><p>General :</p>
-<p>** check the R version ** set default working directory ** uncheck “Restore .RData into workspace at startup” ** set “Save workspace to .RData on exit” to “Never”</p></li>
-<li><p>Code</p>
-<p>** Saving Tab : set “default text encoding to”UTF-8"</p></li>
-<li><p>Appearance</p>
-<p>** set “Editor font” to “D2Coding” ** set “Editor font size” to “12”</p></li>
-<li><p>Pane Layout</p>
-<p>** set as you please</p></li>
-</ul>
-<p><br></p>
-</div>
-<div id="short-keys-to-remember" class="section level2">
-<h2>Short Keys to remember</h2>
-<table>
-<thead>
-<tr class="header">
-<th align="left">short key</th>
-<th align="left">의미</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Ctrl + Enter</td>
-<td align="left">한줄 실행</td>
-</tr>
-<tr class="even">
-<td align="left">Ctrl + Shift + S</td>
-<td align="left">전체실행</td>
-</tr>
-<tr class="odd">
-<td align="left">Ctrl + L</td>
-<td align="left">clear console</td>
-</tr>
-<tr class="even">
-<td align="left">Alt + -</td>
-<td align="left">insert “&lt;-”</td>
-</tr>
-<tr class="odd">
-<td align="left">Ctrl + Shift + M</td>
-<td align="left">insert “%&gt;%”</td>
-</tr>
-<tr class="even">
-<td align="left">Ctrl + Shift + C</td>
-<td align="left">(un)comment lines</td>
-</tr>
-<tr class="odd">
-<td align="left">Ctrl + Shift + 1</td>
-<td align="left">zoom source</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="windows---" class="section level2">
-<h2>Windows의 “한글” 인코딩 문제</h2>
-<ul>
-<li>윈도우는 <code>CP949</code>가 기본 세팅 (맥이나 리눅스는 <code>UTF-8</code>)</li>
-</ul>
-<pre class="r"><code>Sys.getlocale()
-#&gt; [1] &quot;LC_COLLATE=Korean_Korea.949;LC_CTYPE=Korean_Korea.949;LC_MONETARY=Korean_Korea.949;LC_NUMERIC=C;LC_TIME=Korean_Korea.949&quot;</code></pre>
-<ul>
-<li>위도우에서 엑셀데이터를 .csv 파일로 저장할 때 항상 <code>UTF-8</code>로 저장</li>
-</ul>
-<pre><code>write.csv(&quot;filename.csv&quot;, fileEncoding = &quot;UTF-8&quot;)</code></pre>
-<ul>
-<li>윈도우에서 저장한 .csv 파일 읽을 때 <code>EUC-KR</code>로</li>
-</ul>
-<pre><code>read.csv(&quot;fimename.csv&quot;, fileEncoding = &quot;EUC-KR&quot;)</code></pre>
-<ul>
-<li>스트링 인코딩 변환</li>
-</ul>
-<pre><code>str_encode(k, from &quot;EUC-KR&quot;, &quot;UTF-8&quot;)</code></pre>
-<p><br></p>
-</div>
-<div id="section" class="section level2">
-<h2>프로젝트 생성 관리</h2>
-<ul>
-<li><p>[File] ._ [New Project …]</p></li>
-<li><p>오른쪽 상단 [project] 버튼</p></li>
-</ul>
-<p><br></p>
-</div>
-<div id="reference" class="section level2">
-<h2>Reference</h2>
-<ul>
-<li><a href="https://www.rstudio.com/resources/cheatsheets/#ide">RStudio IDE Cheat Sheet</a></li>
+<li><p><a href="./practice/rstudio-ide.pdf">Rstudio IDE</a></p></li>
+<li><p><a href="./practice/base-r.pdf">Base R</a></p></li>
+<li><p><a href="./practice/data-import.pdf">readr &amp; tidyr</a></p></li>
+<li><p><a href="./practice/data-transformation.pdf">dplyr</a></p></li>
 </ul>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
