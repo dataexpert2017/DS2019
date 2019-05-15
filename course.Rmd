@@ -22,7 +22,7 @@ title: "Lessons and Materials"
 
 #### Study 2
 
-- [tidyverse](./practice/Lecture2_tidyverse.pdf)
+- [tidyverse](./practice/Lecture2_tidyverse.pdf){target="_blank"}
 
 - [실습 code](./practice/L2_tidyverse.R){target="_blank"}
 
