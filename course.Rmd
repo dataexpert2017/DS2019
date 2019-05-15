@@ -18,13 +18,13 @@ title: "Lessons and Materials"
 
 - [Base R](./bk04_Base-R.html) / [cheatsheet](https://www.rstudio.com/resources/cheatsheets/)
 
-- R 프로그래밍 기초 ( [실습 code](./practice/code01_1.R) )
+- R 프로그래밍 기초 ( [실습 code](./practice/lecture#1_BaseR.R) )
 
 #### Study 2
 
-- [tidyverse](./Lecture2_tidyverse.pdf)
+- [tidyverse](./practice/Lecture2_tidyverse.pdf)
 
-- [실습 code]()
+- [실습 code](./practice/lecture#2_tidyverse.R)
 
 
 <br>
