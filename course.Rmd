@@ -28,9 +28,9 @@ title: "Lessons and Materials"
 
 - CheatSheet 
 
-  * [readr & tidyr](./practice/data-import.pdf)
+  * [readr & tidyr](./practice/data-import.pdf){target="_blank"}
 
-  * [dplyr](./practice/data-transformation.pdf)
+  * [dplyr](./practice/data-transformation.pdf){target="_blank"}
 
 
 
