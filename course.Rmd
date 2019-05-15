@@ -10,21 +10,31 @@ title: "Lessons and Materials"
 
 - [Data Science Workflow](./bk00_data-science-workflow.html)
 
-- How to be a Data Scientist [(slide)](./bk01_how-to-data-scientist.html)
+- How to be a Data Scientist [(slide)](./bk01_how-to-data-scientist.html){target="_blank"}
 
-- [Data Science Tools](./bk02_data-science-tools.html)
+- [Data Science Tools](./bk02_data-science-tools.html) / [cheatsheet](./practice/rstudio-ide.pdf)
 
 - [R vocabulary](./bk03_r-vocabulary.html) 
 
-- [Base R](./bk04_Base-R.html) / [cheatsheet](https://www.rstudio.com/resources/cheatsheets/)
+- [Base R](./bk04_Base-R.html) / [cheatsheet](./practice/base-r.pdf)
 
-- R 프로그래밍 기초 ( [실습 code](./practice/lecture#1_BaseR.R) )
+- R 프로그래밍 기초 ( [실습 code](./practice/L1_BaseR.R){target="_blank"} )
 
 #### Study 2
 
 - [tidyverse](./practice/Lecture2_tidyverse.pdf)
 
-- [실습 code](./practice/lecture#2_tidyverse.R)
+- [실습 code](./practice/L2_tidyverse.R){target="_blank"}
+
+- CheatSheet 
+
+  * [readr & tidyr](./practice/data-import.pdf)
+
+  * [dplyr](./practice/data-transformation.pdf)
+
+
+
+
 
 
 <br>
